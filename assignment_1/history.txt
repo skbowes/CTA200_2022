@@ -1,0 +1,197 @@
+    1  /cita/local/bin/passwd
+    2  logout
+    3  pwd
+    4  ls
+    5  cd Desktop/
+    6  ls
+    7  ls -a
+    8  cd ..
+    9  cd Downloads/
+   10  ls
+   11  ..
+   12  pwd
+   13  module load
+   14  python
+   15  module load python
+   16  jupyter-notebook
+   17  pwd
+   18  echo $0
+   19  ls -la
+   20  ls
+   21  pwd
+   22  cd ~/murray
+   23  cd ..
+   24  pwd
+   25  cd ..
+   26  pwd
+   27  cd ..
+   28  ls
+   29  cd /h/home-2/sbowes
+   30  cd h
+   31  cd home-2
+   32  ls
+   33  cd ~murray
+   34  pwd
+   35  ls
+   36  cd Papers
+   37  cd Hopkins/
+   38  cd All_Feedback/
+   39  cd second_draft/
+   40  ls
+   41  cd
+   42  pwd
+   43  cd ~murray/
+   44  ls
+   45  cd Papers
+   46  ls
+   47  cd Hopkins/
+   48  cd All_Feedback/
+   49  cd second_draft/
+   50  pwd
+   51  evin
+   52  evince
+   53  pwd
+   54  echo
+   55  whoami
+   56  cd
+   57  pwd
+   58  ls
+   59  grep Documents/
+   60  pwd
+   61  mkdir CTA200H_22
+   62  ls
+   63  cd CTA200H_22/
+   64  module load python
+   65  module avail
+   66  module load gcc
+   67  gcc --version
+   68  module list
+   69  module purge
+   70  module list
+   71  pwd
+   72  cd ..
+   73  cd ~fhorrobin/
+   74  pwd
+   75  ls
+   76  cd
+   77  ls
+   78  cd Desktop/
+   79  ls
+   80  cd ..
+   81  pwd
+   82  cd scratch
+   83  cd Downloads/
+   84  ls
+   85  pwd
+   86  cd ..
+   87  ls
+   88  cd sbowes/
+   89  ls
+   90  cd ..
+   91  pwd
+   92  cd ..
+   93  pwd
+   94  cd cita/
+   95  ls
+   96  cd h
+   97  ls
+   98  cd home-1
+   99  ls
+  100  cd ..
+  101  cd home-2
+  102  ls
+  103  cd sbowes/
+  104  ls
+  105  pwd
+  106  cd 
+  107  pwd
+  108  cd /mnt
+  109  ls
+  110  cd scratch-lustre/
+  111  cd sbowes/
+  112  ls
+  113  pwd
+  114  mkdir CTA200_2022
+  115  cd CTA200_2022/
+  116  mkdir assignment_1
+  117  cat README.md
+  118  vi README.md
+  119  pwd
+  120  cd
+  121  cd ./murray
+  122  cd /./murray/
+  123  pwd
+  124  cd ..
+  125  cd murray/
+  126  grep Hello_world*
+  127  pwd
+  128  find Hello_world*
+  129  ls
+  130  pwd
+  131  find . -name "Hello_word*" -print
+  132  find . -name "Hello_world*" -print
+  133  find . -name "Hello_world.c" -print
+  134  find . -name "Hello_world.py" -print
+  135  cd /mnt/scratch-lustre/sbowes
+  136  pwd
+  137  ls
+  138  cd CTA200_2022/
+  139  ls
+  140  cd assignment_1/
+  141  cp ~/murray/Papers/tmp/Hello_world.c .
+  142  pwd
+  143  cp /~/murray/Papers/tmp/Hello_world.c .
+  144  cd ~/murray
+  145  cd ~
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd sbowes
+  150  cd /mnt/scratch-lustre/sbowes
+  151  ls
+  152  cd CTA200_2022/assignment_1/
+  153  pwd
+  154  cp ~/murray/Papers/tmp/Hello_world.c .
+  155  cp ~murray/Papers/tmp/Hello_world.c .
+  156  ls
+  157  cp ~murray/Papers/tmp/Hello_world.py .
+  158  cp ~murray/tmp/Hello_world.py .
+  159  ls
+  160  mv Hello_world.c Hello_world_Bowes
+  161  ls
+  162  mv Hello_world_Bowes Hello_world_Bowes.c
+  163  mv Hello_world.py Hello_world_Bowes.py
+  164  ls
+  165  module load gcc
+  166  man gcc
+  167  gcc -o Hello_world.x Hello_world_Bowes.c
+  168  ls -la
+  169  ./Hello_world.x 
+  170  ./Hello_world.py
+  171  ./Hello_world_Bowes.py
+  172  chmod +x Hello_world_Bowes.py
+  173  ./Hello_world_Bowes.py
+  174  python Hello_world_Bowes.py
+  175  module load python
+  176  python Hello_world_Bowes.py
+  177  more Hello_world_Bowes.c
+  178  more Hello_world.x
+  179  emacs 
+  180  vi Hello_world_Bowes.c
+  181* 
+  182  vi Hello_world_Bowes.py
+  183  python Hello_world_Bowes.py
+  184  gcc -o Hello_world.x Hello_world_Bowes.c
+  185  ./Hello_world.x
+  186  man |
+  187  ./Hello_world.x
+  188  ./Hello_world.x > output_c.txt
+  189  ls
+  190  more output_c.txt 
+  191  history
+  192  ./Hello_world_Bowes.py > output_python.txt
+  193  ./Hello_world_Bowes.x > output_python.txt
+  194  ./Hello_world.x > output_python.txt
+  195  more output_python.txt 
+  196  ./Hello_world_Bowes.py > output_python.txt
+  197  history > history.txt
